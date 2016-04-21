@@ -5,7 +5,6 @@ var expect = require('chai').expect;
 var str = 'Hello World';
 
 describe('pad', function () {
-
   it('should return a string', function () {
     expect(pad(5, 1)).to.equal('5');
   });
@@ -17,5 +16,4 @@ describe('pad', function () {
   it('should not pad', function () {
     expect(pad(str, 1)).to.equal(str);
   });
-
 });
