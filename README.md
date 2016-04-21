@@ -12,7 +12,7 @@ $ npm install --save pad
 ```js
 var pad = require('pad');
 
-pad('Rainbow');
+pad('Rainbow', 25);
 ```
 ## License
 
