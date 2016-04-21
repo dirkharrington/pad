@@ -47,13 +47,14 @@ gulp.task('test', ['pre-test'], function (cb) {
     });
 });
 
-gulp.task('benchmark', function(cb) {
+gulp.task('benchmark', function (cb) {
   return gulp.src('benchmarks/pad.js', {
     read: false
   })
   .pipe(benchmark({
     reporters: benchmark.reporters.etalon('pad')
-  }));
+  }))
+  .on('end', cb);
 });
 
 gulp.task('watch', function () {

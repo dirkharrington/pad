@@ -1,16 +1,19 @@
 // to run: gulp benchmark
 var pad = require('../lib');
-var str = 'Hello World', lp = 1000, sp = 15, np = 2;
+var str = 'Hello World';
+var lp = 1000;
+var sp = 15;
+var np = 2;
 var Benchmark = require('benchmark');
 var suite = new Benchmark.Suite('pad');
 
-suite.add('long', function() {
+suite.add('long', function () {
   pad(str, lp);
 })
-.add('short', function() {
+.add('short', function () {
   pad(str, sp);
 })
-.add('none', function() {
+.add('none', function () {
   pad(str, np);
 });
 
