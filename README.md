@@ -1,5 +1,4 @@
-# pad [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-[![Coverage Status](https://coveralls.io/repos/github/dirkharrington/pad/badge.svg?branch=master)](https://coveralls.io/github/dirkharrington/pad?branch=master)
+# pad [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url][![Coverage Status](https://coveralls.io/repos/github/dirkharrington/pad/badge.svg?branch=master)](https://coveralls.io/github/dirkharrington/pad?branch=master)
 >
 
 ## Installation
