@@ -1,5 +1,5 @@
 # pad [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 
+>
 
 ## Installation
 
@@ -26,4 +26,4 @@ Apache-2.0 © [Dirk Harrington]()
 [daviddm-image]: https://david-dm.org/dirkharrington/pad.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/dirkharrington/pad
 [coveralls-image]: https://coveralls.io/repos/dirkharrington/pad/badge.svg
-[coveralls-url]: https://coveralls.io/r/dirkharrington/pad
+[coveralls-url]: https://coveralls.io/github/dirkharrington/pad?branch=master
