@@ -16,7 +16,7 @@ pad('Rainbow', 25);
 ```
 ## License
 
-Apache-2.0 © [Dirk Harrington]()
+Apache-2.0 ©
 
 
 [npm-image]: https://badge.fury.io/js/pad.svg
