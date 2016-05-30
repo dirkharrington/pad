@@ -54,7 +54,6 @@ gulp.task('benchmark', function (cb) {
   .pipe(benchmark({
     reporters: benchmark.reporters.etalon('pad')
   }))
-  .on('end', cb);
 });
 
 gulp.task('watch', function () {
